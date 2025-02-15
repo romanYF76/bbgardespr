@@ -1,0 +1,433 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body {
+	padding: 0;
+	margin: 0 5%;
+	background-image: url(pictures/background_image_2.avif); 
+	border: solid 1px #000000;
+}
+
+header {
+	height: 300px;
+	border: thin solid; 
+	background-image: url(pictures/home_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0px;
+	z-index: 1;
+	align-content: center;
+	
+}
+
+#bbgardens_title{
+	font-family: "Vidaloka", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 40px;
+
+}
+
+#structure {   
+	background-color: #F9F9F9;
+}
+
+#nav_bar {
+	position: sticky;
+	top: 0px;
+	background-color: #1d5d0d;
+	z-index: 1;
+}
+
+#list {
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "Vidaloka", serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+#list li {
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+#list li a {
+	display: block;
+	color: #000000;
+	border: 1px outset #000000;
+	border-radius: 2em;
+ 	padding: .5em 1em;
+ 	margin: 1em 1em;
+ 	background-color: #F9F9F9;
+ 	text-decoration: none;
+}
+
+#list li a:hover {
+	color:#3e301e;
+	background-color: #DAF7A6;
+}
+
+#home_text {
+	margin: 10px 50px 30px 50px;
+}
+
+#home_title {
+	font-family: "Vidaloka", serif;
+	font-weight: 400;
+	font-style: normal;
+  	font-size: 40px;
+  	text-align:center;
+  	display: inline-block;
+  	border-bottom: 2px solid #1d5d0d;
+  	padding-bottom: 10px;
+  	width: 100%;
+	
+}
+
+.home_content {
+	
+	margin: 40px 40px 40px 0px;
+	font-family: "Alata", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 21px;
+	text-align: center;
+}
+
+section#home_text h2 {
+	border-bottom: 2px solid #1d5d0d;
+	display: inline-block;
+}
+
+#home_bulets {
+	margin: 10px;
+	font-family: "Alata", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 18px;
+	margin-left: 50px;
+}
+
+#home_image {
+	width: 50%;
+	height: 50%;
+	float: right;
+	margin: 50px 10px 0 20px;
+		border: 3px solid #000000;
+	border-radius: 1%;
+}
+
+#equipment {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin: 30px;
+	border: 3px solid #1d5d0d;
+	border-radius: 1%;
+}
+
+#about_us {
+	font-size: 23px;
+	text-align: center;
+	margin: 50px 30px 60px 50px;
+}
+
+#about_title {
+	font-family: "Vidaloka", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	display: inline-block;  
+	border-bottom: 2px solid #1d5d0d;
+	margin-top: 10px;
+}
+
+#aboutus_text {
+	text-align:justify;
+	margin: 10px;
+	font-family: "Alata", sans-serif;
+  	font-weight:400;
+  	font-style: normal;
+	font-size: 21px;
+}
+
+
+
+#service_section {
+	font-size: 23px;
+	text-align:justify;
+	margin: 50px 90px 60px 90px;
+}
+
+#service_image {
+	width: 50%;
+	height: 50%;
+	float: right;
+	margin: 60px 30px 60px 0;
+	border: 3px solid #000000;
+	border-radius: 1%;
+	
+}
+
+#service_title {
+	font-family: "Vidaloka", serif;
+  	font-weight: 400;
+	font-size: 40px;
+  	font-style: normal;
+	display: inline-block;  
+	border-bottom: 2px solid #1d5d0d;
+	padding-bottom: 10px;
+	margin: 10px;
+	
+	
+
+}
+
+#services {
+	text-align:justify;
+	margin: 10px 10px 10px 30px;
+	font-family: "Alata", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 21px;
+}
+
+#gallery_section {
+	margin: 10px 30px 10px;
+	text-align: center;
+}
+
+#gallery_title {
+	font-family: "Vidaloka", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 40px;
+	text-align:center;
+	display: inline-block;;
+    border-bottom: 2px solid #1d5d0d;
+    padding-bottom: 10px;
+}
+
+#gallery_text {
+	text-align:center;
+	margin: 10px;
+	font-family: "Alata", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 25px;
+}
+
+#gallery {
+	width: 80%;
+	margin: 50px auto 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+	gap: 30px
+}
+
+#gallery img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	transition: 1s;
+	border: 3px solid #1d5d0d;
+	border-radius: 1%;
+}
+
+#gallery img:hover{
+	transform: scale(1.2);
+}
+
+.contact_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; 
+}
+
+#contact_section {
+	color: #000000;
+	padding: 50px;
+	margin: auto;
+}
+
+#contact_title {
+	font-family: "Vidaloka", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 40px;
+	border-bottom: 2px solid #1d5d0d;
+	display: inline-block;
+}
+
+#contact {
+	text-decoration: none;
+	font-family: "Alata", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 20px;
+	
+
+}
+
+#gmail_bbgardens {
+	text-decoration: none;
+	color: #000000;
+}
+
+#clients {
+	color: #000000;
+	padding: 20px;
+	margin: auto;
+	
+}
+
+#client_title {
+	font-family: "Vidaloka", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 40px;
+	border-bottom: 2px solid #1d5d0d;
+	display: inline-block;
+}
+
+#clients_names {
+	font-family: "Alata", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 20px;
+}
+
+#info_form_title {
+	font-family: "Vidaloka", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 35px;
+	border-bottom: 2px solid #1d5d0d;
+	display: inline-block;
+	margin: 50px 0 0 20px;
+}
+
+#info_form {
+	display: flex;
+	flex-direction: column;
+	margin: 20%;
+	padding: 2%;
+	font-family: "Alata", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 20px;
+	margin-top: 2%;
+	border-radius: 2em;
+}
+
+.label_form {
+	border-bottom: 2px solid #1d5d0d;
+	display: inline-block;
+}
+
+#submit {
+	border-radius: 20px;
+	width: 20%;
+	margin: 0 auto;
+	font-family: "Alata", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 17px;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+	background-color: #1d5d0d;
+}
+
+#reset {
+	border-radius: 20px;
+	width: 20%;
+	margin: 0 auto;
+	font-family: "Alata", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 17px;
+	color: #FFFFFF;
+	background-color: #1d5d0d;
+}
+
+footer {
+	height: 75px;
+	clear: both; 
+	background-color: #1d5d0d;
+	color:  #FFE7D2;
+	margin: 0;
+	padding: 0;
+}
+
+footer p{
+	text-decoration: none;
+	font-family: "Patua One", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	margin: 20px 0 0 20px;
+}
+
+.bulets {
+	list-style: none;
+  	padding-left: 0;
+}
+
+.bulets li ::before{
+	content: "🌿";
+  	margin-right: 10px;
+  	line-height: 1.5;
+}
+
+#bulets_contact {
+  list-style: none;
+  padding: 0;
+  font-family: "Alata", sans-serif;
+  font-size: 20px;
+}
+
+#bulets_contact li {
+  position: relative; 
+  padding-left: 30px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  list-style: none;
+}
+
+#bulets_contact li::before {
+  content: "📞"; 
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#bulets_contact li:nth-child(2)::before {
+  content: "✉️"; 
+}
+
+#bulets_contact li:nth-child(3)::before {
+  content: "📍"; 
+}
+
+#bulets_contact li:nth-child(4)::before {
+  content: "✉️"; 
+}
+
+/*Use "nth-child" para especificar donde queria los emigis y no salieran en todas las filas de los bulets*/
+
+#bulets_contact a {
+  color: #0078D7;
+  text-decoration: none;
+}
+
+#bulets_contact a:hover {
+  text-decoration: underline;
+}

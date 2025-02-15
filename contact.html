@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BB Gardens</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="website icon" type="png" href="pictures/bbgardens_logo.png"> <!--Esta imagen es el logo que sale a un lado del nombre(title) de la web en el tab.-->
+    </head>
+    <body>
+
+        <div id="structure"> 
+
+            
+
+            <header id="home"class="header">
+                
+                <img src="pictures/logo_bbgardens.JPG" alt="Company Logo">
+    
+            </header>
+    
+                <nav id="nav_bar">    
+                    <ul id="list">
+                        <li><p><a href="home.html">HOME</a></p></li>
+                        <li><p><a href="about_us.html">ABOUT US</a></p></li>
+                        <li><p><a href="services.html">SERVICE</a></p></li>
+                        <li><p><a href="gallery.html">GALLERY</a></p></li>
+                        <li><p><a href="contact.html">CONTACT</a></p></li>
+                    </ul>
+                </nav>
+    
+            <div class="contact_container">
+
+                <section id="contact_section">
+        
+                    <h2 id="contact_title">Contact</h2>
+                       <ul id="bulets_contact">
+                            <li>Phone:<br>
+                                +1 (787) 374-4332<br>+1 (787) 613-9032
+                            </li>
+                            <li>Mail:<br>
+                                <a href="mailto:bbgardenspr@gmail.com" id="gmail_bbgardens">bbgardenspr@gmail.com</a>
+                            </li>
+                            <li>Physical Address:<br>
+                                Beatriz, Cayey, PR 00736
+                            </li>
+                            <li>Postal Address:<br>
+                                PO Box 1744 00739, Cidra PR
+                            </li>
+                        </ul>
+
+                </section>
+        
+                <section id="clients">
+                    <h2 id="client_title">Some of our clients</h2>
+                        <ul id="clients_names" class="bulets">
+                            <li><p>Longhorn Restaurants</p></li>
+                            <li><p>Olive Garden Restaurants</p></li>
+                            <li><p>Hotel Four Point By Sheraton at Caguas Real</p></li>
+                            <li><p>Airort Aviation Sevices</p></li>
+                            <li><p>Aireko Construction</p></li>
+                            <li><p>Cossma</p></li>
+                            <li><p>Wendy's Restaurants</p></li>
+                            <li><p>among others...</p></li>
+                            
+                        </ul>
+        
+                </section>
+
+            </div>
+
+
+               <!-- <h2 id="info_form_title">Proporcione sus datos para que podamos comunicarnos con usted</h2>
+
+                <form id="info_form" action="" method="post">
+                    
+                    
+                        <label class="label_form" for="name">First Name:</label>
+                            <input type="text" name="firstname" placeholder="Juan" maxlength="25" required>
+                        <label class="label_form" for="lastname">Last Name:</label>
+                            <input type="text" name="lastname" placeholder="Del Pueblo" maxlength="25" required>
+
+                            <label class="label_form" for="email">Email:</label>
+                            <input type="text" name="email" placeholder="juandelpueblo@example.com" maxlength="254" required>
+
+                        <label class="label_form" for="phonenumber">Phone #:</label>
+                            <input type="text" name="phonenomber" placeholder="#" maxlength="15" required>
+
+                        <label class="label_form" for="city">Select your city:</label>
+                            <select name="city" required>
+                            <option value="" disabled selected>---</option>
+                            <option value="Adjuntas">Adjuntas</option>
+                            <option value="Aguada">Aguada</option>
+                            <option value="Aguadilla">Aguadilla</option>
+                            <option value="Aguas Buenas">Aguas Buenas</option>
+                            <option value="Aibonito">Aibonito</option>
+                            <option value="Añasco">Añasco</option>
+                            <option value="Arecibo">Arecibo</option>
+                            <option value="Arroyo">Arroyo</option>
+                            <option value="Barceloneta">Barceloneta</option>
+                            <option value="Barranquitas">Barranquitas</option>
+                            <option value="Bayamón">Bayamón</option>
+                            <option value="Cabo Rojo">Cabo Rojo</option>
+                            <option value="Caguas">Caguas</option>
+                            <option value="Camuy">Camuy</option>
+                            <option value="Canóvanas">Canóvanas</option>
+                            <option value="Carolina">Carolina</option>
+                            <option value="Cataño">Cataño</option>
+                            <option value="Cayey">Cayey</option>
+                            <option value="Ceiba">Ceiba</option>
+                            <option value="Ciales">Ciales</option>
+                            <option value="Cidra">Cidra</option>
+                            <option value="Coamo">Coamo</option>
+                            <option value="Comerío">Comerío</option>
+                            <option value="Corozal">Corozal</option>
+                            <option value="Culebra">Culebra</option>
+                            <option value="Dorado">Dorado</option>
+                            <option value="Fajardo">Fajardo</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Guánica">Guánica</option>
+                            <option value="Guayama">Guayama</option>
+                            <option value="Guayanilla">Guayanilla</option>
+                            <option value="Guaynabo">Guaynabo</option>
+                            <option value="Gurabo">Gurabo</option>
+                            <option value="Hatillo">Hatillo</option>
+                            <option value="Hormigueros">Hormigueros</option>
+                            <option value="Humacao">Humacao</option>
+                            <option value="Isabela">Isabela</option>
+                            <option value="Jayuya">Jayuya</option>
+                            <option value="Juana Díaz">Juana Díaz</option>
+                            <option value="Juncos">Juncos</option>
+                            <option value="Lajas">Lajas</option>
+                            <option value="Lares">Lares</option>
+                            <option value="Las Marías">Las Marías</option>
+                            <option value="Las Piedras">Las Piedras</option>
+                            <option value="Loíza">Loíza</option>
+                            <option value="Luquillo">Luquillo</option>
+                            <option value="Manatí">Manatí</option>
+                            <option value="Maricao">Maricao</option>
+                            <option value="Maunabo">Maunabo</option>
+                            <option value="Mayagüez">Mayagüez</option>
+                            <option value="Moca">Moca</option>
+                            <option value="Morovis">Morovis</option>
+                            <option value="Naguabo">Naguabo</option>
+                            <option value="Naranjito">Naranjito</option>
+                            <option value="Orocovis">Orocovis</option>
+                            <option value="Patillas">Patillas</option>
+                            <option value="Peñuelas">Peñuelas</option>
+                            <option value="Ponce">Ponce</option>
+                            <option value="Quebradillas">Quebradillas</option>
+                            <option value="Rincón">Rincón</option>
+                            <option value="Río Grande">Río Grande</option>
+                            <option value="Sabana Grande">Sabana Grande</option>
+                            <option value="Salinas">Salinas</option>
+                            <option value="San Germán">San Germán</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="San Lorenzo">San Lorenzo</option>
+                            <option value="San Sebastián">San Sebastián</option>
+                            <option value="Santa Isabel">Santa Isabel</option>
+                            <option value="Toa Alta">Toa Alta</option>
+                            <option value="Toa Baja">Toa Baja</option>
+                            <option value="Trujillo Alto">Trujillo Alto</option>
+                            <option value="Utuado">Utuado</option>
+                            <option value="Vega Alta">Vega Alta</option>
+                            <option value="Vega Baja">Vega Baja</option>
+                            <option value="Vieques">Vieques</option>
+                            <option value="Villalba">Villalba</option>
+                            <option value="Yabucoa">Yabucoa</option>
+                            <option value="Yauco">Yauco</option>
+                            </select>
+
+                        <br>
+                    
+                        <label class="label_form" for="Comment">Comment:<br>
+                        </label>
+                            <textarea name="comment" rows="4" cols="50" placeholder="Write your comment here..." > </textarea>
+                    
+
+                        <br>
+
+                        <input  id="submit" type="submit" value="Submit">
+
+                        <input  id="reset" type="reset" value="Reset">
+
+
+                </form> -->
+
+                
+            <footer>
+               
+                <hr>
+                <p>Copyright &copy; 2025 BBGardenspr</p>
+            </footer>
+    
+        </div>
